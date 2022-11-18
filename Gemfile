@@ -56,7 +56,8 @@ gem "sassc-rails" # Uncomment this line
 # Pour que la clé cloudinary soit secrette
 gem "dotenv-rails", groups: [:development, :test]
 
-
+# Install cloudinary
+gem "cloudinary"
 
 
 group :development, :test do
