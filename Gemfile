@@ -53,6 +53,9 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form", github: "heartcombo/simple_form"
 gem "sassc-rails" # Uncomment this line
 
+# Pour que la clé cloudinary soit secrette
+gem "dotenv-rails", groups: [:development, :test]
+
 
 
 
